@@ -16,7 +16,6 @@ function createListElement(){
     li.appendChild(button2);
     button2.classList.add("btn-list");
     inputs.value="";
-    inputs.value.classList.add("text-node")
     button2.addEventListener("click", function(){
         this.parentElement.remove();
     })
